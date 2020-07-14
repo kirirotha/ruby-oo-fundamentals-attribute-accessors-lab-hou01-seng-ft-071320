@@ -3,9 +3,8 @@
 
 class Cat 
   
-  def name
-    attr_accessor :cat_name
-  end
+  attr_accessor :cat_name
+  
   def meow
     puts "Meow"
   end
